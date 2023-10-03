@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/oval1.svg), url(./assets/oval2.svg);
+    background-repeat: no-repeat;
+    background-position: right 50vw bottom 50vh, left 45vw top 24vw;
+    font-family: 'Kumbh Sans';
+    background-color: #19A1AE;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px 12px 12px 12px;
+    width: 350px;
+    height: auto;
+    background: #fff;
+}
+
+.burtebi{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.kacuna{
+    position: relative;
+    top: -50px;
+    margin-bottom: -40px;
+}
+
+.saxeli{
+    color: #2E3349;
+    font-size: 18px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.asaki{
+    color: #6B7082;
+    font-size: 18px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+p{
+    color: #6B7082;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.borderi{
+    border-top: 1px solid #6B7082;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.textebi .text{
+    display: block;
+    color: #6B7082;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.textebi{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    font-size: 30px;
+    width: 100%;
+    color: #2E3349;
+}
