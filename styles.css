@@ -19,6 +19,17 @@ body{
     width: 100vw;
 }
 
+.burtebi{
+
+    background-color: #41CBD3;
+    width: 350px;
+    height: 140px;
+    background-image: url(./assets/burtebii.svg);
+    background-repeat: repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -64,20 +75,20 @@ p{
     padding-top: 4px;
 }
 
-.borderi{
+.xazi{
     border-top: 1px solid #6B7082;
     width: 100%;
     margin-top: 40px;
 }
 
-.textebi .text{
+.qvemot .text{
     display: block;
     color: #6B7082;
     font-size: 14px;
     padding-bottom: 25px;
 }
 
-.textebi{
+.qvemot{
     padding-top: 25px;
     display: flex;
     justify-content: space-evenly;
